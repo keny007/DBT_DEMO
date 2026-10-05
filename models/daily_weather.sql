@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH daily_weather AS (
     SELECT 
     DATE(TIMZ) AS DAILY_WEATHER,

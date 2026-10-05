@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH BIKE AS (
     SELECT 
     RIDE_ID,
