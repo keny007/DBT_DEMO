@@ -5,4 +5,4 @@ sources:
     schema : demo_schema
     tables:
       - name: bike_table
-      - name: weather_table
+      - name: weather
